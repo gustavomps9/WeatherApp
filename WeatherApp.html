@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="WeatherApp.css">
-    <title>Weather App</title>
-</head>
-<body>
-    <div class="card">
-        <div class="search-box">
-            <input type="text" class="search-bar" placeholder="Nome da cidade..." spellcheck="false">
-            <button><img src="images/search.png" alt="pesquisar"></button>
-        </div>
-        <div class="weather">
-            <img src="images/clouds.png" class="weather-icon" alt="icon-nuvens">
-            <h1 class="temp">19ºC</h1>
-            <h2 class="city">Aveiro</h2>
-            <div class="details">
-                <div class="col">
-                    <img src="images/humidity.png" alt="icon-humidade">
-                    <div>
-                        <p class="humidity">30%</p>
-                        <p>Humidade</p>      
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="WeatherApp.css">
+        <title>Weather App</title>
+    </head>
+    <body>
+        <div class="card">
+            <div class="search-box">
+                <input type="text" class="search-bar" placeholder="Nome da cidade..." spellcheck="false">
+                <button><img src="images/search.png" alt="pesquisar"></button>
+            </div>
+            <div class="error">
+                <p>Erro: Cidade não encontrada!</p>
+            </div>
+            <div class="weather">
+                <img src="images/clouds.png" class="weather-icon" alt="icon-nuvens">
+                <h1 class="temp">19ºC</h1>
+                <h2 class="city">Aveiro</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="images/humidity.png" alt="icon-humidade">
+                        <div>
+                            <p class="humidity">30%</p>
+                            <p>Humidade</p>      
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <img src="images/wind.png" alt="icon-vento">
-                    <div>
-                        <p class="wind">7 km/h</p>
-                        <p>Velocidade do vento</p>      
+                    <div class="col">
+                        <img src="images/wind.png" alt="icon-vento">
+                        <div>
+                            <p class="wind">7 km/h</p>
+                            <p>Velocidade do vento</p>      
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <script src="WeatherApp.js"></script>
-</body>
-</html>
+        <script src="WeatherApp.js"></script>
+    </body>
+    </html>

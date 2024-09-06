@@ -14,7 +14,7 @@ body{
     max-width: 400px;
     border-radius: 20px;
     color: #fff;
-    background: linear-gradient(135deg, #d1d876 0%, #5e091b 100%);
+    background: linear-gradient(135deg, #3a7bd5 0%, #3a6073 100%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 100px auto;
     padding: 40px 30px;
@@ -61,29 +61,52 @@ body{
 
 .weather h1{
     font-size: 45px;
-    font-weight: 500;
+    font-weight: 500px;
 }
 
 .weather h2{
-    font-size: 45px;
-    font-weight: 400;
+    font-size: 35px;
+    font-weight: 500px;
     margin-top: -10px;
 }
 
-.details{
-    display: flex;
-    align-items: center;
-    padding: 0 40px;
-    margin-top: 70px;
+.error{
+    color: #cebcbc;
+    font-size: 14px;
+    margin-top: 20px;
+    display: none;
 }
 
-.col{
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.col {
     display: flex;
     align-items: center;
     text-align: left;
+    margin-right: 50px;
 }
 
-.col img{
+.col img {
     width: 40px;
     margin-right: 10px;
 }
+
+.humidity {
+    font-size: 20px;
+}
+
+.wind{
+    font-size: 20px;
+}
+
+.weather{
+    display: none;
+}
+
